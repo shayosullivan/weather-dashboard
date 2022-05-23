@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Weather Dashboard</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+
+  <body>
+    <section class="hero">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">Weather Dashboard</h1>
+        </div>
+      </div>
+    </section>
+    <main class="container">
+      <div class="row row-cols-1 row-cols-lg-2">
+        <!-- Search Cities -->
+        <section class="col col-lg-3 searchedCitiesSection">
+          <div class="card">
+            <div class="card-header subtitle">
+              <h5>Search for a City:</h5>
+            </div>
+            <div class="card-body">
+              <!-- Search Form -->
+              <form class="form-inline">
+                <div class="form-group mb-2">
+                  <input type="search" class="form-control" id="cityInput" />
+                </div>
+                <button type="submit" class="btn mb-2" id="searchBtn">
+                  <i class="fas fa-search-location"></i>
+                </button>
+              </form>
+
+              <!--List of cities typed in -->
+              <div class="list-group listSearchedCities"></div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Current Weather -->
+        <section class="col col-lg-9">
+          <div class="card">
+            <div class="card-header subtitle">
+              <h5>Current Weather</h5>
+            </div>
+   
+        
+                    <div class="col col-sm-3">
+                      <img
+                        src="#"
+                        class="card-img-top icon"
+                        alt="Weather icon"
+                        style="display: none"
+                      />
+                      <div class="card-text city">City</div>
+                      <p class="card-text date">Date:</p>
+                      <p class="card-text temp">Temp:</p>
+                      <p class="card-text humid">Humidity:</p>
+                      <p class="card-text uv">UV Index:</p>
+                      <p class="card-text"></p>
+                    </div>
+         
+
+    <script src="assets/script.js"></script>
+  </body>
+</html>
