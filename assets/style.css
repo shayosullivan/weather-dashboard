@@ -1,0 +1,71 @@
+header {
+  padding: 20px;
+}
+
+h5 {
+  margin-bottom: 0px;
+}
+
+h1,
+h5 {
+  text-align: center !important;
+  margin-left: 0px !important;
+}
+
+section {
+  padding: 20px 5px !important;
+}
+
+button {
+  background: blue !important;
+  color: #e6e4e3 !important;
+}
+
+.subtitle {
+  background-color: cornflowerblue;
+  color: #e6e4e3;
+}
+
+.card-header {
+  padding: 5px;
+  text-align: center;
+}
+
+.newCity {
+  background-color: blue;
+  color: white;
+}
+
+.searchedCitiesSection {
+  width: 30% !important;
+}
+
+.searchedCitiesSection .card-body {
+  padding-left: 10px !important;
+  padding-right: 5px !important;
+  font-size: 0.7rem;
+}
+
+#cityInput {
+  font-size: 0.7rem;
+}
+
+input {
+  width: 100% !important;
+  text-transform: capitalize;
+}
+
+.listItemSearchedCity {
+  width: 100%;
+  padding: 0.75rem;
+  text-transform: capitalize;
+}
+
+.form-inline .form-group {
+  margin-left: 0px !important;
+  width: 50%;
+}
+
+.list-group {
+  width: 50%;
+}
