@@ -1,117 +1,30 @@
-eader {
-  padding: 20px;
+
+e:root {
+  --headerBackground1: #3562bd;
+  --headerBackground2: #11084b;
+  --forecast: #2e3e50;
+}
+* {
+  box-sizing: border-box;
 }
 
-h5 {
-  margin-bottom: 0px;
+body {
+  margin: 0rem;
+  padding: 0rem;
+  background-color: burlywood;
 }
 
-h1,
-h5 {
-  text-align: center !important;
-  margin-left: 0px !important;
-}
-
-section {
-  padding: 20px 5px !important;
-}
-
-button {
-  background: blue !important;
-  color: white !important;
-}
-.subtitle {
-  background-color: cadetblue;
-  color: whitesmoke;
-}
-
-.card-header {
-  padding: 5px;
-  text-align: center;
-}
-
-.newCity {
-  background-color: blue;
+header h1 {
   color: white;
+  background: linear-gradient(
+    0.25turn,
+    var(--headerBackground1),
+    var(--headerBackground2)
+  );
+  padding-top: 0.15em;
+  padding-bottom: 0.25em;
 }
 
-.searchedCitiesSection {
-  width: 30% !important;
-}
-
-.searchedCitiesSection .card-body {
-  padding-left: 10px !important;
-  padding-right: 5px !important;
-  font-size: 0.7rem;
-}
-
-#cityInput {
-  font-size: 0.7rem;
-}
-
-input {
-  width: 100% !important;
-  text-transform: capitalize;
-}
-
-.listItemSearchedCity {
-  width: 100%;
-  padding: 0.75rem;
-  text-transform: capitalize;
-}
-
-.form-inline .form-group {
-  margin-left: 0px !important;
-  width: 50%;
-}
-
-.list-group {
-  width: 50%;
-}
-
-.currentWeather .col {
-  padding-left: 10px !important;
-  padding-right: 5px !important;
-  font-size: 0.7rem;
-  text-align: center;
-}
-.currentData .city {
-  text-transform: capitalize;
-}
-
-.currentData .icon {
-  max-width: 400px;
-  max-height: 150px;
-}
-
-.weather {
-  text-transform: capitalize;
-}
-.leaflet-popup-content {
-  text-transform: capitalize;
-}
-.forecast {
-  padding-left: 0px !important;
-  padding-right: 0px !important;
-}
-
-.forecast .col {
-  padding-left: 5px !important;
-  padding-right: 5px !important;
-}
-
-.forecast .col1 {
-  padding: 0px !important;
-}
-
-.forecast .card-body {
-  padding: 10px;
-  text-align: center;
-}
-
-@media (min-width: 576px) {
-  .forecast .card-body {
-    padding: 15px;
-    text-align: left;
-  }
+#forecast-card {
+  background-color: var(--forecast);
 }
